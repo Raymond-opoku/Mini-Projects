@@ -1,0 +1,24 @@
+https://gist.github.com/136a4b41719ea27be2c2aaa835e1e6a4
+
+
+$ git clone maryrose-hw ray-hw
+Cloning into 'ray-hw'...
+done.
+$ cd ray-hw
+$ git branch maryjs-hw
+$ git checkout maryjs-hw
+Switched to branch 'maryjs-hw'
+$ git add homework.js
+$ git commit -m 'maryrose homework'
+[maryjs-hw 79f29e9] maryrose homework
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+$ git push origin maryjs-hw
+Counting objects: 3, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 356 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To /home/ccuser/workspace/js-homework/maryrose-hw
+ * [new branch]      maryjs-hw -> maryjs-hw
+$ cd ../maryrose-hw
+$ 

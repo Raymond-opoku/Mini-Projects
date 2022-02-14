@@ -1,0 +1,40 @@
+//https://gist.github.com/2a4d6db80015d7cf9e9f8098157207af
+
+///////////////////////////////////////////////////////
+$ git branch
+* master
+  moma
+  whitney
+$ git branch -D moma
+Deleted branch moma (was 978e5a1).
+$ git branch -D whitney
+Deleted branch whitney (was 9b384f9).
+$ git  branch unordered-list
+$ git checkout unordered-list
+Switched to branch 'unordered-list'
+$ git add index.html
+$ git commit -m 'unodered-list'
+[unordered-list 4c6f99e] unodered-list
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+$ git checkout master
+Switched to branch 'master'
+$ git merge unordered-list
+Updating 1481f5a..4c6f99e
+Fast-forward
+ index.html | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+$ git branch big-heading
+$ git checkout big-heading
+Switched to branch 'big-heading'
+$ git add index.html
+$ git commit -m 'big heading'
+[big-heading 66edff7] big heading
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git checkout master
+Switched to branch 'master'
+$ git merge big-heading
+Updating 4c6f99e..66edff7
+Fast-forward
+ index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ 
